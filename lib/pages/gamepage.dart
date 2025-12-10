@@ -300,7 +300,7 @@ class _GamepageState extends State<Gamepage>
       acceleration = acceleration * .4;
     }
 
-    if (grassRect.bottom > Get.height) {
+    if (grassRect.bottom > Get.height + 300) {
       grassRect = Rect.fromLTWH(0, 0, Get.width, Get.height / 2);
     }
 
